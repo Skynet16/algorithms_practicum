@@ -1,6 +1,6 @@
-def fibonacci(n):
+def fib(n):
     if n in (1, 2):
         return 1
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    return fib(n - 1) + fib(n - 2)
 
-print(fibonacci(6))
+print(fib(6))
